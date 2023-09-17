@@ -19,5 +19,6 @@ const obj1 = {
 const obj2 = { ...obj1, city: "Dhaka" };
 
 console.log(obj2);
-console.log(obj2);
-console.log(obj2);
+
+let { name, age, city } = obj1;
+console.log(obj1);
