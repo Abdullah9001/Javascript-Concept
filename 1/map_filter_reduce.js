@@ -1,6 +1,4 @@
-const number = [
-  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-];
+const number = [1, 2, 3, 4];
 
 let num2 = number.map((value) => {
   return value + 6;
@@ -13,3 +11,9 @@ const num3 = number.filter((value) => {
 });
 
 console.log(num3);
+
+const num4 = number.reduce((val1, val2) => {
+  return val1 * val2;
+});
+
+console.log(num4);
